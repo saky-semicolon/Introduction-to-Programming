@@ -22,57 +22,43 @@ Congratulations on making such a great decision to learn programming. In this re
 ## An Overview of PC Components
 
 ### Input / Output Devices
-* Input Devices
-  _Accepts information from the user and transforms it into digital code that the computer can process
-  _Example: keyboard, mouse, scanner
-* Output Devices
-  _An interface through which the computer conveys its output to the user
-  _Example: monitor, printer
+* <b>Input Devices</b> <br>
+  Accepts information from the user and transforms it into digital code that the computer can process <br>
+  Example: keyboard, mouse, scanner
+* <b>Output Devices</b> <br>
+  An interface through which the computer conveys its output to the user <br>
+  Example: monitor, printer
 
 ### Main Memory
-• A semiconductor device which stores the 
-information necessary for a program to run.
-• 2 types
-• ROM (Read Only Memory)
-• Contains information that is necessary for the 
-computer to boot up
-• The information stays there permanently even 
-when the computer is turned off.
-• RAM (Random Access Memory)
-• Contains instructions or data needed for a 
-program to run
-• Gets erased when the computer is turned off.
+ * A semiconductor device which stores the information necessary for a program to run.
+ * 2 types-
+    1. ROM (Read Only Memory) <br>
+       * Contains information that is necessary for the computer to boot up
+       * The information stays there permanently even when the computer is turned off.
+    2. RAM (Random Access Memory)
+       * Contains instructions or data needed for a program to run
+       * Gets erased when the computer is turned off.
 
 ### Central Processing Unit (CPU)
-• Does most of the work in executing a program
-• The CPU inside a PC is usually the 
-microprocessor
-• 3 main parts:
-• Control Unit
-• Fetch instructions from main memory and puts 
-them in the instruction register
-• ALU (Arithmetic Logic Unit)
-• Executes arithmetic operations
-• Registers
-• Temporarily stores instructions or data fetched 
-from memory
-
+ * Does most of the work in executing a program
+ * The CPU inside a PC is usually the microprocessor
+ * 3 main parts:
+    1. Control Unit
+      * Fetch instructions from main memory and puts them in the instruction register
+    2. ALU (Arithmetic Logic Unit)
+      * Executes arithmetic operations
+    3. Registers
+      * Temporarily stores instructions or data fetched from memory
 #### Storage Devices
-• A magnetic, optical, magneto-optical or flash 
-device used to store a large amounts of 
-information.
-• Stores the software components or data 
-needed for the computer to execute its tasks.
-• Can be “read only” or “writable”.
-• Example: Hard drive, DVD-ROM, DVD-RW, 
-USB flash drive
+ * A magnetic, optical, magneto-optical or flash device used to store a large amounts of information.
+ * Stores the software components or data needed for the computer to execute its tasks.
+ * Can be “read only” or “writable”.
+  * Example: Hard drive, DVD-ROM, DVD-RW, USB flash drive
 
 ### Network Devices
-• Connects a computer to other computers.
-• Enables users to access data or execute 
-programs remotely.
-• Example: modem, router, switch, Ethernet 
-card
+  * Connects a computer to other computers.
+  * Enables users to access data or execute programs remotely.
+  * Example: modem, router, switch, Ethernet card
 
 # Chapter 02
 
