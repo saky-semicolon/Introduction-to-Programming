@@ -1,6 +1,8 @@
 # Introduction-to-Programming
 
 Congratulations on making such a great decision to learn programming. In this repository we will focus on the concepts of programming more than solving problems.
+<img src="https://st.depositphotos.com/2065405/4839/i/450/depositphotos_48392531-stock-photo-word-cloud-coding.jpg">
+
 ## Table of Contents
 * [<i>Preface</i>](#preface)
 * [<b>Chapter 0 - An Overview of PC Components</b>](#chapter-0)		              	
@@ -16,7 +18,28 @@ Congratulations on making such a great decision to learn programming. In this re
 * [<b>Chapter 10 - Algorithms and Flowcharts</b>](#chapter-10)
 * [<b>Chapter 11 : Pseudo Codes</b>](#chapter-11)
 
-# Preface
+# <i>Preface</i>
+
+<img src="https://helios-i.mashable.com/imagery/articles/04mFAKaq7SCZFykWe1X8x7r/hero-image.fill.size_1200x675.v1680014662.png">
+
+Welcome to the fascinating world of programming! In an era where technology is advancing at an unprecedented pace, programming has become an indispensable skill that empowers individuals to shape the digital landscape. Whether you aspire to become a software engineer, a data scientist, a web developer, or simply gain a deeper understanding of the technology that surrounds us, learning to program opens up a world of endless possibilities.
+
+This book serves as a comprehensive introduction to programming, designed for beginners who are taking their first steps into the realm of coding. We understand that starting a new journey can be daunting, especially when entering a field as vast and ever-evolving as programming. That's why this book is carefully crafted to guide you through the fundamental concepts and principles of programming in a clear and approachable manner.
+
+Within these pages, you will embark on a hands-on learning experience, discovering the building blocks of programming and gaining the tools to bring your ideas to life. Starting from the basics of programming logic and problem-solving techniques, we will gradually introduce you to the core concepts of programming languages, syntax, control structures, and data manipulation.
+
+Throughout your journey, you will encounter numerous practical examples and exercises that reinforce your understanding and help you develop your coding skills. We believe that active learning and practice are vital components in mastering programming, so we encourage you to tackle the exercises and experiment with the code snippets provided. By doing so, you will not only strengthen your grasp of the concepts but also foster a sense of creativity and problem-solving abilities that are essential in the programming world.
+
+It's important to note that programming is not just about writing lines of code; it's about developing a mindset and approach to problem-solving. As you progress through this book, you will gain insights into algorithmic thinking, debugging techniques, and best practices for writing efficient and maintainable code. These skills will not only help you in programming but will also be valuable in many other aspects of your life, as they cultivate logical reasoning, attention to detail, and the ability to break down complex problems into manageable tasks.
+
+While this book lays the foundation for programming knowledge, it is merely the beginning of your journey. Programming is a vast field, continuously evolving and expanding. As you master the basics covered in this book, you will find yourself ready to explore more advanced topics and specialize in specific areas of programming that align with your interests and goals.
+
+Remember, learning to program is a process that requires patience, perseverance, and a growth mindset. Mistakes and challenges are natural parts of the learning process, and they offer valuable opportunities for growth. Embrace the joy of discovery, celebrate your achievements, and never hesitate to seek help or collaborate with fellow learners and programmers.
+
+Now, take a deep breath, prepare to embark on an exciting adventure, and let's dive into the world of programming together!
+
+<b><i>Happy coding!</i></b>
+
 
 # Chapter-0
 ## An Overview of PC Components
@@ -60,20 +83,22 @@ Congratulations on making such a great decision to learn programming. In this re
   * Enables users to access data or execute programs remotely.
   * Example: modem, router, switch, Ethernet card
 
-# Chapter 02
+# Chapter 01
+## Programs and Programming 
+* <b>Programs:</b> A Program is a set of logically related instructions that is arranged in a sequence that directs the computer in solving a problem. Computer programs are one component of software, which also includes documentation and other intangible components. A computer program in its human-readable form is called source code.
+* <b>Programming:</b> The process of writing a program is called programming. Computer programming is the process of performing a particular computation, usually by designing and building an executable computer program. Programming involves tasks such as analysis, generating algorithms, profiling algorithms' accuracy and resource consumption, and the implementation of algorithms.
 
-Programs: A Program is a set of logically related instructions that is arranged in a sequence that directs the computer in solving a problem. Computer programs are one component of software, which also includes documentation and other intangible components. A computer program in its human-readable form is called source code.
-Programming: The process of writing a program is called programming. Computer programming is the process of performing a particular computation, usually by designing and building an executable computer program. Programming involves tasks such as analysis, generating algorithms, profiling algorithms' accuracy and resource consumption, and the implementation of algorithms.
-Computer Software: It can be broadly classified into two categories:
+## Computer Software
+It can be broadly classified into two categories:
 1.	System Software: An operating system that manages the computer’s resources effectively, takes care of scheduling multiple jobs for execution, and manages the flow of data and instructions between the input/output units and the main memory. (ex: windows 7, windows 10, Linux, Mac. etc.)
-a.	Language Translator
-b.	Operating System
-c.	Utilities
-d.	Special Purpose Program
+  * Language Translator
+  * Operating System
+  * Utilities
+  * Special Purpose Program
 
 2.	Application Software: Application software is written to enable the computer to solve a specific data processing task. (ex: Database management software, Spreadsheet software, multimedia software. Etc.)
-a.	Pre-written software
-b.	User-written application programs.
+  * Pre-written software
+  * User-written application programs.
 Classification of Programming Languages: Programming languages are basically classified into two main categories – Low- level language and High-level language. Every programming language belongs to one of these categories and sub-category.
 1.	High-level language: to write application programs. Ex: BASIC, COBOL, FORTRAN.
 2.	Middle-level language: to write applications and system programs. Ex: C.
