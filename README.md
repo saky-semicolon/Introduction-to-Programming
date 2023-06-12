@@ -163,9 +163,9 @@ Programming languages are basically classified into two main categories – Low-
 ### Machine Language (also referred as machine code): 
 This is a sequence of instructions written in the form of binary numbers consisting of 1’s or 0’s to which the computer responds directly.
 
-    * Advantage of machine language: As computers only understands 0/1, binary numbers, when we write any language. e.g., C. we need a translator program to translate it into computer understandable binary numbers. Machine language itself understands 0/1 directly. Therefore, the computer directly starts executing the machine language instructions, and it takes less execution time.
-    * Disadvantage of machine language:  It is difficult to understand and develop a program using machine language. It is Machine dependent and Difficult to debug and modify.
-      * Examples: 
+  * Advantage of machine language: As computers only understands 0/1, binary numbers, when we write any language. e.g., C. we need a translator program to translate it into computer understandable binary numbers. Machine language itself understands 0/1 directly. Therefore, the computer directly starts executing the machine language instructions, and it takes less execution time.
+  * Disadvantage of machine language:  It is difficult to understand and develop a program using machine language. It is Machine dependent and Difficult to debug and modify.
+  * Examples: 
 
             Load A register with value 7
             0000	0111
@@ -173,9 +173,12 @@ This is a sequence of instructions written in the form of binary numbers consist
 ### Assembly Language: 
 When symbols such as letters, digits, or, special characters are employed for the operation, operand and other parts of the instruction code, the representation is called an assembly language. Such representations are known as mnemonic codes; they’re used instead of binary codes. A program written with mnemonic codes forms an assembly language program. 
 
-    * Advantages: Writing a program in assemble language is more convenient and readable than writing one in machine language. Instead of binary sequence, as in machine language, a program in assembly language is written in the form of symbolic instructions.
-    * Disadvantages: It is machine dependent and designed for a specific make and model of a microprocessor that’s why assembly language programs written for one processor won’t work on a different processor. So, it’s not portable and difficult.
-    * Example: 		LD A, 7	Load register A with 7
+  * Advantages: Writing a program in assemble language is more convenient and readable than writing one in machine language. Instead of binary sequence, as in machine language, a program in assembly language is written in the form of symbolic instructions.
+  * Disadvantages: It is machine dependent and designed for a specific make and model of a microprocessor that’s why assembly language programs written for one processor won’t work on a different processor. So, it’s not portable and difficult.
+  * Example: 		
+
+              LD A 
+              7	Load register A with 7
 
 ### High-level Languages: 
 These languages have instructions that are similar to human languages and have a set of grammar that makes it easy for a programmer to write programs and identify and correct errors in them. To illustrate this point, a program written in BASIC, to obtain the sum of two numbers, is shown below.
@@ -219,12 +222,26 @@ It can be broadly classified into two categories:
   * Pre-written software
   * User-written application programs.
 
+# Chapter-08
+## Structured Programming Concept
+A better way of programming – a systematic way to organize programs called structured programming.
+Structured programming is a programming paradigm that emphasizes the use of structured control flow constructs to improve the clarity, efficiency, and maintainability of code. It promotes a disciplined approach to programming by breaking down programs into smaller, modular units and using control structures to control the flow of execution. The key concepts of structured programming include:
 
+1. Sequential execution: Programs are executed sequentially, with each instruction or statement being executed one after another. This ensures that the program's logic follows a clear and linear path, making it easier to understand and debug.
 
+2. Selection or conditional statements: Structured programming makes use of selection statements, such as "if-else" and "switch-case," to make decisions based on certain conditions. These statements allow the program to choose different paths of execution based on the evaluation of conditions.
 
-Python
-Structured Programming Concept: A better way of programming – a systematic way to organize programs called structured programming.
-Algorithms: According to the computer scientist Niklaus Wirth stated that- PROGRAM = ALGORITHMS + DATA
+3. Repetition or looping structures: Looping structures, such as "for," "while," and "do-while," enable the execution of a block of code repeatedly until a specific condition is met. This helps in performing iterative tasks and simplifies the implementation of repetitive operations.
+
+4. Modularization: Structured programming encourages modularization, which involves breaking down a program into smaller, manageable modules or functions. Each module focuses on performing a specific task or achieving a specific purpose. This improves code reusability, maintainability, and makes the program easier to understand and modify.
+
+5. Single entry, single exit (SESE) principle: Structured programming follows the principle of having a single entry point and a single exit point for each control structure. This ensures that the program's flow remains clear and avoids unnecessary complexity or confusion.
+
+The main goal of structured programming is to improve code readability, maintainability, and reliability by using well-defined control structures and organizing code into logical blocks. By enforcing structured programming principles, developers can write code that is easier to understand, test, and debug, reducing the likelihood of errors and making it easier to maintain and update the code in the long run.
+# Chapter-09
+## Algorithms
+
+According to the computer scientist Niklaus Wirth stated that- PROGRAM = ALGORITHMS + DATA
 An algorithm is a part of the plan for the computer program and an effective procedure for solving a problem in a finite number of steps. Algorithm may be represented in various ways. These are four ways of stating algorithms-
 •	Step-form: The procedure of solving a problem is stated with written statements. Each statement solves a part of the problem and these together complete the solution. The step-form uses normal language to define each procedure.
 •	Pseudo-code: The pseudo-code is a written form representation of the algorithm but it differs from the step-form as it uses a restricted vocabulary to define its action of solving the problem.
