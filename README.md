@@ -88,6 +88,22 @@ Now, take a deep breath, prepare to embark on an exciting adventure, and let's d
 * <b>Programs:</b> A Program is a set of logically related instructions that is arranged in a sequence that directs the computer in solving a problem. Computer programs are one component of software, which also includes documentation and other intangible components. A computer program in its human-readable form is called source code.
 * <b>Programming:</b> The process of writing a program is called programming. Computer programming is the process of performing a particular computation, usually by designing and building an executable computer program. Programming involves tasks such as analysis, generating algorithms, profiling algorithms' accuracy and resource consumption, and the implementation of algorithms.
 
+Here in this repository we will start programming with C. Let's write our first code in C that prints something like Hello World!
+
+    #include<stdio.h>
+    int main()
+    {
+      printf("Hello World!\n");
+      return 0;
+    }
+
+<b>Output:</b>
+
+      Hello World!
+<b>C Programs Syntax:</b>
+
+<img src="media_files/C%20syntax.jpeg">
+
 ## Computer Software
 It can be broadly classified into two categories:
 1.	System Software: An operating system that manages the computer’s resources effectively, takes care of scheduling multiple jobs for execution, and manages the flow of data and instructions between the input/output units and the main memory. (ex: windows 7, windows 10, Linux, Mac. etc.)
@@ -99,7 +115,14 @@ It can be broadly classified into two categories:
 2.	Application Software: Application software is written to enable the computer to solve a specific data processing task. (ex: Database management software, Spreadsheet software, multimedia software. Etc.)
   * Pre-written software
   * User-written application programs.
-Classification of Programming Languages: Programming languages are basically classified into two main categories – Low- level language and High-level language. Every programming language belongs to one of these categories and sub-category.
+
+# chapter-02
+## Conputational Thinking
+To ex
+# chapter-05
+## Classification of Programming Languages
+
+Programming languages are basically classified into two main categories – Low- level language and High-level language. Every programming language belongs to one of these categories and sub-category.
 1.	High-level language: to write application programs. Ex: BASIC, COBOL, FORTRAN.
 2.	Middle-level language: to write applications and system programs. Ex: C.
 3.	Low-level language: mostly used to write system programs. Ex: Assembly language. 
