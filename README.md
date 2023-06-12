@@ -10,7 +10,7 @@ Congratulations on making such a great decision to learn programming. In this re
 * [<b>Chapter 02 - Computational Thinking</b>](#chapter-02)
 * [<b>Chapter 03 - Translators- Assembler, Compiler, Interpreter</b>](#chapter-03)
 * [<b>Chapter 04 - Programming Languages</b>](#chapter-04)
-* [<b>Chapter 05 - Classification of Programming Languages</b>](#chapter-05)
+* [<b>Chapter 05 - Problem Solving</b>](#chapter-05)
 * [<b>Chapter 06 - Bug & Debug</b>](#chapter-06)
 * [<b>Chapter 07 - Computer Software</b>](#chapter-07)
 * [<b>Chapter 08 - Structured Programming Concept</b>](#chapter-08)
@@ -104,23 +104,56 @@ Here in this repository we will start programming with C. Let's write our first 
 
 <img src="media_files/C%20syntax.jpeg">
 
-## Computer Software
-It can be broadly classified into two categories:
-1.	System Software: An operating system that manages the computer’s resources effectively, takes care of scheduling multiple jobs for execution, and manages the flow of data and instructions between the input/output units and the main memory. (ex: windows 7, windows 10, Linux, Mac. etc.)
-  * Language Translator
-  * Operating System
-  * Utilities
-  * Special Purpose Program
-
-2.	Application Software: Application software is written to enable the computer to solve a specific data processing task. (ex: Database management software, Spreadsheet software, multimedia software. Etc.)
-  * Pre-written software
-  * User-written application programs.
 
 # chapter-02
 ## Conputational Thinking
-To ex
-# chapter-05
-## Classification of Programming Languages
+Computational thinking is a problem-solving approach that draws on concepts and techniques used in computer science and programming. It involves breaking down complex problems into smaller, more manageable parts and developing a logical and systematic approach to solving them.
+
+At its core, computational thinking involves four key components:
+
+1. Decomposition: Breaking down a complex problem or task into smaller, more manageable sub-problems or steps. This helps in understanding the problem's structure and identifying its key components.
+
+2. Pattern recognition: Identifying common patterns, similarities, or regularities within a problem. This involves recognizing similarities between different instances of a problem and leveraging those patterns to develop general solutions.
+
+3. Abstraction: Creating generalized models or representations of a problem or system, focusing on the essential details while ignoring unnecessary complexity. Abstraction helps in simplifying a problem and making it easier to solve.
+
+4. Algorithmic thinking: Developing step-by-step instructions or algorithms to solve a problem. This involves designing a logical sequence of operations or actions that can be followed to achieve the desired outcome.
+
+<img src="https://www.nordangliaeducation.com/bsn-nanjing/-/media/bsn-nanjing/news-events/computational-thinking-unplugged/computing.jpg?rev=dcf3b33a11544bde9daab93c50b6a592&hash=D4F68D589A5B0ABF749B6C80CF5AB0AB">
+
+Computational thinking is not limited to computer science or programming; it can be applied to a wide range of disciplines and real-life situations. It helps in developing problem-solving skills, logical reasoning, and the ability to think critically and analytically. Computational thinking can be beneficial in fields such as mathematics, engineering, science, data analysis, and even everyday problem-solving tasks.
+
+By applying computational thinking, individuals can approach complex problems more effectively, devise efficient solutions, and understand the underlying principles that govern those solutions. It promotes a systematic and structured approach to problem-solving, which can lead to improved decision-making and innovation in various domains.
+
+# chapter-03
+## Translators- Assembler, Compiler, Interpreter
+Translators are software programs that convert high-level programming languages or human-readable code into machine-readable code or executable instructions that can be understood and executed by a computer. There are three types of translators: assemblers, compilers, and interpreters. Let's explore each of them:
+<img src="https://logicmojo.com/assets/dist/new_pages/images/diff-compiler.jpg">
+
+1. Assembler:
+   - An assembler is a translator specifically designed for low-level programming languages, such as assembly language.
+   - It converts assembly language code, which is a mnemonic representation of machine instructions, into machine code directly executable by the computer's processor.
+   - Assemblers perform a one-to-one mapping between assembly instructions and machine instructions, usually with a one-to-one correspondence.
+   - The output of an assembler is typically an object file or executable file that can be directly loaded and executed by the computer.
+
+2. Compiler:
+   - A compiler is a translator that converts high-level programming languages (e.g., C, C++, Java) into machine code.
+   - It analyzes the entire source code and translates it into an equivalent executable form, without the need for re-translation during subsequent executions.
+   - The compilation process consists of several stages, including lexical analysis, syntax analysis, semantic analysis, code generation, and optimization.
+   - The output of a compiler is usually an executable file or a binary that can be run directly on the target machine architecture.
+
+3. Interpreter:
+   - An interpreter is a translator that translates and executes high-level programming languages one line or instruction at a time.
+   - It reads the source code, interprets it, and executes it line by line or statement by statement.
+   - Unlike compilers, interpreters do not produce a standalone executable; they directly execute the source code.
+   - Interpreters often perform additional tasks like runtime error checking and dynamic memory management.
+   - Interpreted languages, such as Python and JavaScript, use interpreters to execute their code.
+
+The choice between using an assembler, compiler, or interpreter depends on the programming language, the target platform, and the desired trade-offs between execution speed, portability, and development flexibility. Assemblers are typically used for low-level programming and specific hardware optimizations, compilers are used for efficient code execution, and interpreters offer flexibility and ease of use at the cost of reduced performance.
+
+# Chapter-04
+
+## Programming Languages
 
 Programming languages are basically classified into two main categories – Low- level language and High-level language. Every programming language belongs to one of these categories and sub-category.
 1.	High-level language: to write application programs. Ex: BASIC, COBOL, FORTRAN.
@@ -154,13 +187,27 @@ The Process of Programming:
 4.	Translate the program to machine code.
 5.	Test the program with simple data.
 6.	Put the program into operation.
-Translators: Suppose two people are trying to communicate with each other. One knows Hindi and another one knows English. So how they will communicate. They can communicate if they have a translator who can convert Hindi to English and English to Hindi. A translator or programming language processor that converts a computer program from language to another. It takes a program written in source code to converts into machine code There are 3 types of translators-
-1.	Assembler: The assembler is used to translate the program written in assembly language into machine level language. The source program written in the assembly language is given as the input to the assembler. The output generated by assembler is the object code or machine code understandable by the computer. 
-FAP – Fortran Assembly Program
-MAP – Macro Assembly Program
-2.	Compiler: The compiler will read the complete source program written in high level language, if the code is error free then it will convert into machine level language. The compiler specifies the errors at the end of compilation, if there are any errors in the source code. The errors must be removed before the compiler can successfully recompile the source code again.
-COBOL – Common Business Oriented Language
-3.	Interpreter: Just like compiler, interpreter is used to convert high-level language to machine level language. It converts one at a time and reports errors detect once, while doing conversion. With this it is easier to detect errors than in a compiler. An interpreter is faster than a compiler as it immediately executes the code upon reading the code.
+
+# Chapter-05
+## Problem Solving
+
+# Chapter-07
+## Computer Software 
+
+It can be broadly classified into two categories:
+1.	System Software: An operating system that manages the computer’s resources effectively, takes care of scheduling multiple jobs for execution, and manages the flow of data and instructions between the input/output units and the main memory. (ex: windows 7, windows 10, Linux, Mac. etc.)
+  * Language Translator
+  * Operating System
+  * Utilities
+  * Special Purpose Program
+
+2.	Application Software: Application software is written to enable the computer to solve a specific data processing task. (ex: Database management software, Spreadsheet software, multimedia software. Etc.)
+  * Pre-written software
+  * User-written application programs.
+
+
+
+
 Python
 Structured Programming Concept: A better way of programming – a systematic way to organize programs called structured programming.
 Algorithms: According to the computer scientist Niklaus Wirth stated that- PROGRAM = ALGORITHMS + DATA
