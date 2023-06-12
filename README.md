@@ -160,27 +160,41 @@ Programming languages are basically classified into two main categories – Low-
 2.	Middle-level language: to write applications and system programs. Ex: C.
 3.	Low-level language: mostly used to write system programs. Ex: Assembly language. 
 
-Machine Language (also referred as machine code): This is a sequence of instructions written in the form of binary numbers consisting of 1’s or 0’s to which the computer responds directly.
-a.	Advantage of machine language: As computers only understands 0/1, binary numbers, when we write any language. e.g., C. we need a translator program to translate it into computer understandable binary numbers. Machine language itself understands 0/1 directly. Therefore, the computer directly starts executing the machine language instructions, and it takes less execution time.
-b.	Disadvantage of machine language:  It is difficult to understand and develop a program using machine language. It is Machine dependent and Difficult to debug and modify.
-Examples: 		0011	1100 	Load A register with value 7
-		0000	0111
-Assembly Language: When symbols such as letters, digits, or, special characters are employed for the operation, operand and other parts of the instruction code, the representation is called an assembly language. Such representations are known as mnemonic codes; they’re used instead of binary codes. A program written with mnemonic codes forms an assembly language program. 
-a.	Advantages: Writing a program in assemble language is more convenient and readable than writing one in machine language. Instead of binary sequence, as in machine language, a program in assembly language is written in the form of symbolic instructions.
-b.	Disadvantages: It is machine dependent and designed for a specific make and model of a microprocessor that’s why assembly language programs written for one processor won’t work on a different processor. So, it’s not portable and difficult.
-Example: 		LD A, 7	Load register A with 7
-High-level Languages: These languages have instructions that are similar to human languages and have a set of grammar that makes it easy for a programmer to write programs and identify and correct errors in them. To illustrate this point, a program written in BASIC, to obtain the sum of two numbers, is shown below.
-	Stmt. No.		Program statement	Comments
-	10		LET X=7		Put into X
-	20		LET Y=10		Put 10 into Y
-	30		LET SUM = X+Y	Add values in X and Y and put in SUM
-	40		PRINT SUM	Output the Content in SUM
+### Machine Language (also referred as machine code): 
+This is a sequence of instructions written in the form of binary numbers consisting of 1’s or 0’s to which the computer responds directly.
+
+    * Advantage of machine language: As computers only understands 0/1, binary numbers, when we write any language. e.g., C. we need a translator program to translate it into computer understandable binary numbers. Machine language itself understands 0/1 directly. Therefore, the computer directly starts executing the machine language instructions, and it takes less execution time.
+    * Disadvantage of machine language:  It is difficult to understand and develop a program using machine language. It is Machine dependent and Difficult to debug and modify.
+      * Examples: 
+
+            Load A register with value 7
+            0000	0111
+
+### Assembly Language: 
+When symbols such as letters, digits, or, special characters are employed for the operation, operand and other parts of the instruction code, the representation is called an assembly language. Such representations are known as mnemonic codes; they’re used instead of binary codes. A program written with mnemonic codes forms an assembly language program. 
+
+    * Advantages: Writing a program in assemble language is more convenient and readable than writing one in machine language. Instead of binary sequence, as in machine language, a program in assembly language is written in the form of symbolic instructions.
+    * Disadvantages: It is machine dependent and designed for a specific make and model of a microprocessor that’s why assembly language programs written for one processor won’t work on a different processor. So, it’s not portable and difficult.
+    * Example: 		LD A, 7	Load register A with 7
+
+### High-level Languages: 
+These languages have instructions that are similar to human languages and have a set of grammar that makes it easy for a programmer to write programs and identify and correct errors in them. To illustrate this point, a program written in BASIC, to obtain the sum of two numbers, is shown below.
+
+            Stmt. No.		Program statement	Comments
+            10		LET X=7		Put into X
+            20		LET Y=10		Put 10 into Y
+            30		LET SUM = X+Y	Add values in X and Y and put in SUM
+            40		PRINT SUM	Output the Content in SUM
+
 High-level languages are classified as procedural and non-procedural and problem-oriented languages. High-level languages are easy to prepare and debug and they’re not machine oriented when Low-level languages are machine oriented.
-1. Procedural Languages: -	a. Algorithmic Languages: C, COBOL and FORTRAN.
-	b. Object-oriented Languages: C++, Java
-2. Non-procedural Languages: -
+
+1. Procedural Languages:
+    * Algorithmic Languages: C, COBOL and FORTRAN.
+	  * Object-oriented Languages: C++, Java
+2. Non-procedural Languages:
 3. Problem-oriented Languages: - These are designed for developing a convenient expression of a given class of problems.
-The Process of Programming:
+
+### The Process of Programming:
 1.	Understand the problem to the solved.
 2.	Think and design the solution logic.
 3.	Write the program in the chosen programming languages.
