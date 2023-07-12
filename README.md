@@ -382,7 +382,8 @@ In mathematics and computer science, an algorithm is a finite sequence of rigoro
 * It is an alternative to using pseudocode; while a pseudocode description is verbal, a flowchart is graphical in nature.
 
 **Symbols**
-<img src="https://www.researchgate.net/publication/338671462/figure/fig1/AS:848676255694848@1579351595020/Standard-Flowchart-Symbols.ppm">
+
+<img src="https://www.mbaskool.com/2013_images/stories/april_images/process_flow_symbols_2.jpg">
 
 # Chapter-11
 ## Pseudocodes
