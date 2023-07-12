@@ -367,8 +367,8 @@ Developing algorithms using step-form:
 1.	START and STOP
 2.	INPUT or READ
 3.	PRINT
-4.	Operators-
-  a.	Arithmetic Operators: ←; The expression X←6 means that a value 6 is assigned to the variable X. Examples: +, -, *, /, %
+4.	Operators- <br>
+  a.	Arithmetic Operators: ←; The expression X←6 means that a value 6 is assigned to the variable X. Examples: +, -, *, /, % <br>
   b.	Relational Operators
 
 # Chapter-10
