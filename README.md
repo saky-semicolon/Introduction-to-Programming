@@ -336,28 +336,29 @@ Algorithms show these three features:
 This is the if… then… else… form of the decision. This means that if the preposition is true then execute process1, else, or otherwise, execute process2.
 
 3.	**Repetition (also known as iteration or looping):** repeat and while. repeat loop, while loop, if… then go to ... loop. The repeat loop is used to iterate or repeat a process or sequence of processes until some condition becomes true. It has the general form:
+
 *Syntax:*
 
-    Process1				Fill water in kettle
-    Process2				until kettle is full			
-    ProcessN				
-    Until proposition		
-    While preposition				while kettle is not full
+        Process1				Fill water in kettle
+        Process2				until kettle is full			
+        ProcessN				
+        Until proposition		
+        While preposition				while kettle is not full
 
-    Begin
-    fill water in kettle
-    Process1
-    Process2
-    ……………
-    ProcessN
-    end
+        Begin
+        fill water in kettle
+        Process1
+        Process2
+        ……………
+        ProcessN
+        end
 
-    If … then goto … is:
-    Process1				Fill some water in kettle
-    Process2				if kettle not full then goto 1
-    ……………
-    ProcessN
-    If proposition then goto Process1
+        If … then goto … is:
+        Process1				Fill some water in kettle
+        Process2				if kettle not full then goto 1
+        ……………
+        ProcessN
+        If proposition then goto Process1
 
 **Constant and Variable:** Constant is a fixed value that can’t be changed. On the other hand, the variable is a container for a value that may vary during the execution of the program. For example, in the tea-making algorithm, the cup and kettle are constant whether the water level, water temperature and quantity of tea leaves are variable.
 
