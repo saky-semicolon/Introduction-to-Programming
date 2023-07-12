@@ -1,6 +1,7 @@
 # Introduction-to-Programming
 
-Congratulations on making such a great decision to learn programming. In this repository we will focus on the concepts of programming more than solving problems.
+Congratulations on making such a great decision to learn programming! <br> 
+In this repository we will focus on the concepts of programming more than solving problems.
 <img src="https://st.depositphotos.com/2065405/4839/i/450/depositphotos_48392531-stock-photo-word-cloud-coding.jpg">
 
 ## Table of Contents
@@ -206,7 +207,79 @@ High-level languages are classified as procedural and non-procedural and problem
 6.	Put the program into operation.
 
 # Chapter-05
-## Problem Solving
+## Problem Solving and Software Development Method
+
+We will focus on problem solving more than programming here. Problem solving is finding solutions for the descriptive problems. We will forllow some sequential way of solving problems using C. Later we will see the sotware development methods.
+### Problem Solving
+
+Problem solving is the process of transforming the description of a problem into a solution by using our knowledge of the problem domain and by relying on our ability to select and use appropriate problem-solving strategies, techniques and tools.
+
+Computers can be used to help us solve problems
+
+### Software Development Method(SDM)
+
+1. Specification of needs
+2. Problem analysis
+3. Design and algorithmic representation
+4. Implementation
+5. Testing and verification
+6. Documentation
+
+#### 1. Specification of Needs
+* To understand exactly:
+* what the problem is
+* what is needed to solve it
+* what the solution should provide 
+* if there are constraints and special conditions.
+
+#### 2. Problem Analysis
+In the analysis phase, we should identify the following:
+* Inputs to the problem, their form and the input media to be used
+* Outputs expected from the problem, their form and the output media to be used
+* Special constraints or conditions (if any)
+* Formulas or equations to be used
+
+#### 3. Design and Algorithmic Representation
+* An algorithm is a sequence of a finite number of steps arranged in a specific logical order which, when executed, produces the solution for a problem.
+* An algorithm must satisfy these requirements:
+  _It may have input(s)
+  _It must have an output
+  _It should not be ambiguous (different interpretations to it)
+* Every step in the algorithm must be clear and easily understandable
+* It must be general (it can be used for different input values)
+* It must be correct and solve the problem for which it is designed
+* It must execute and terminate in a finite amount of time
+* It should be efficient so that it can solve the intended problem using the minimum amount of computational resources
+* An algorithm can be represented using pseudocode or a flowchart.
+
+### Control Structure
+* In order to tackle a problem, we need a suitable Control Structure.
+* In 1966, two researchers, C. Bohn and G. Jacopini, demonstrated that any algorithm can be described using only 3 control structures: sequence, selection and repetition.
+#### 4. Implementation
+* The process of implementing an algorithm by writing a computer program using a programming language (for example, C)
+* The output of the program must be the solution to the intended problem
+* The program should not do anything that it is not supposed to do
+* Self-organization may occur in complex code. This is when a program handles unexpected input in a meaningful way without having explicitly being programmed to do so. 
+
+#### 5. Testing and Verification
+* Program testing is the process of executing a program to demonstrate its correctness
+* Program verification is the process of ensuring that a program meets user-requirements
+* After the program is compiled, we must run the program and test and verify it with different inputs before the program can be released to the public or other users (or submitted for evaluation in this class)
+
+#### 6. Documentation
+* Contains details produced at all stages of the program development cycle.
+* Typically done in 2 ways:
+* Writing comments between and beside your actual lines of codes
+* Creating a separate document file to explain the program
+* Important not only for other people to use or modify your program, but also for you to understand your own program after a while (you will forget the details and logic of your own program before long)
+
+<b>Documentation</b>
+Documentation is important because:
+
+* You may return to your program in future to use parts of it again (e.g. certain functions)
+* Other programmers or end users might require some information about your program for reference or maintenance
+* You may someday have to modify your program, or may discover some errors or weaknesses in the program that you wish to correct or improve
+* Although documentation is listed as the last stage of software development method, it is actually an ongoing process which should be done from the very beginning of the software development process.
 
 # Chapter-07
 ## Computer Software 
@@ -285,3 +358,227 @@ Developing algorithms using step-form:
 4.	Operators-
 a.	Arithmetic Operators: ←; The expression X←6 means that a value 6 is assigned to the variable X. Examples: +, -, *, /, %
 b.	Relational Operators
+
+# Chapter-10
+## Algorithms and Flowcharts
+# Chapter-11
+## Pseudocodes
+* A pseudocode is a semiformal, (typically English) spoken-like language with limited vocabulary that can be used to design and describe algorithms.
+<b>Criteria of good pseudocode: </b>
+
+* Easy to understand, precise and clear.
+* Gives the correct solution in all cases.
+* Eventually ends.
+
+* A series of steps or statements that are executed in the order they are written in an algorithm.
+* The beginning and end of a block of statements can be optionally marked with the keywords begin and end.
+<b><i>Example 1:</i></b>
+
+      1. Begin
+      2. Read the birth date from the user.
+      3. Calculate the difference between the birth date and today’s date.
+      4. Print the user’s age.
+      5. End
+
+* Defines two courses of action depending on the outcome of a condition. A condition is an expression that is, when computed,evaluated as either true or false.
+
+* The keywords used are if and else.
+<b>Format:</b>
+
+    if condition
+      then-part
+    else
+      else-part
+    end_if
+
+<b><i>Example 2:</i></b>
+
+    if age is greater than 55
+      print “Pencen”
+    else
+      print “Kerja lagi”
+    end_if
+
+* Sometimes in certain situations, we may omit the else-part.
+
+    if number is odd number
+      print “This is an odd number”
+    end_if
+
+* Nested selection structure: basic selection structure that contains other if/else structure in its then-part or else-part.
+
+    if number is equal to 1
+      print “One”
+    else if number is equal to 2
+      print “Two”
+    else if number is equal to 3
+      print “Three”
+    else
+      print “Other”
+    end_if
+
+<b><i>Example 3:</i></b>
+
+<b>Pseudocode: The Repetition control structure.</b>
+
+* Specifies a block of one or more statements that are repeatedly executed until a condition is satisfied. 
+* The keyword used is while.
+<b>Format:</b>
+  while condition
+    loop-body
+  end_while
+
+<b><i>Example 5: Summing up 1 to 10</i></b>
+
+    set cumulative sum to 0
+    set current number to 1
+    while current number is less than or equal to 10
+      add the current number to cumulative sum 
+      add 1 to current number
+    end_while
+    print the value of cumulative sum
+
+Pseudocode: The Repetition control structure 
+• Subsequently, we can write the previous pseudocode 
+(example 5) like this.
+• Example 6: Summing up 10 numbers
+cumulative sum = 0
+current number = 1
+while current number is less than or equal to 10
+cumulative sum = cumulative sum + current number
+current number = current number + 1
+end_while
+print the value of cumulative sum
+• Note that in this algorithm, we are using both the 
+sequence and repetition control structure
+17
+Pseudocode: The Repetition control structure
+• Example 7:
+Begin
+number of users giving their birth date = 0
+while number of users giving their birth date < 10
+begin
+ Read birth date from the user.
+ Calculate the difference between the birth 
+date and today’s date.
+ Print the user’s age.
+ if the age is greater than 55
+print “Pencen”
+ else
+print “Kerja lagi”
+ end_if
+ number of users giving their birth date + 1
+end
+end_while
+End
+18
+Pseudocode: The Repetition control structure 
+• Example 8:
+while user still wants to play
+begin
+Select either to play on a network or play against computer
+ if play on network
+create connection to remote machine
+play game with connected computer
+ else
+ select mission
+ play game locally
+ end_if
+Ask user whether he/she still wants to play
+end
+end_while
+19
+Pseudocode: The Repetition control structure
+• Example 9:
+while user still wants to play
+begin
+Select either to play on network or play against computer
+if play on network
+create connection to remote machine
+play game with connected computer
+Else
+select mission
+play game locally
+end_if
+Ask user whether he/she still wants to play
+end
+end_while
+• For readability, always use proper indentation!!!
+20
+Flowcharts
+• A flowchart is a graph used to depict or show 
+a step by step solution using symbols which 
+represent tasks.
+• The symbols used consist of geometrical 
+shapes that are connected by flow lines.
+• It is an alternative to using pseudocode; while 
+a pseudocode description is verbal, a 
+flowchart is graphical in nature.
+21
+Flowchart Symbols
+Terminal symbol - indicates the beginning and 
+end points of an algorithm.
+Process symbol - shows an instruction other than
+input, output or selection.
+Input-output symbol - shows an input or an output 
+operation.
+Disk storage I/O symbol - indicates input from 
+or output to disk storage.
+Printer output symbol - shows hardcopy printer
+output.
+22
+Flowchart Symbols cont…
+Selection symbol - shows a selection process
+for two-way selection.
+Off-page connector - provides continuation 
+of a logical path on another page.
+On-page connector - provides continuation
+of logical path at another point in the same
+page.
+Flow lines - indicate the logical sequence of
+execution steps in the algorithm.
+23
+Flowchart – sequence control structure
+Statement 2
+ Statement 1
+ Statement 3
+:
+24
+Flowchart – selection control structure
+Condition
+elsestatement(s)
+thenstatement(s)
+No Yes
+25
+Flowchart – repetition control structure
+Condition Loop 
+Statement(s)
+yes
+no
+26
+Flowchart – example 1
+Begin
+Read birth date
+Calculate
+Age = current year – birth date
+Display age
+End
+27
+Flowchart – example 2
+Begin
+Read age
+End
+YES Age > 55? NO
+print “Pencen” print “Kerja lagi”
+28
+Flowchart – example 5
+Begin
+End
+current_number <= 10?
+NO
+YES
+sum = 0
+current_number = 1
+sum = sum + current_number
+current_number = current_number + 1
+print sum
