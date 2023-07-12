@@ -314,53 +314,75 @@ The main goal of structured programming is to improve code readability, maintain
 # Chapter-09
 ## Algorithms
 
-According to the computer scientist Niklaus Wirth stated that- PROGRAM = ALGORITHMS + DATA
+* According to the computer scientist *Niklaus Wirth* stated that- **PROGRAM = ALGORITHMS + DATA**
+
 An algorithm is a part of the plan for the computer program and an effective procedure for solving a problem in a finite number of steps. Algorithm may be represented in various ways. These are four ways of stating algorithms-
-•	Step-form: The procedure of solving a problem is stated with written statements. Each statement solves a part of the problem and these together complete the solution. The step-form uses normal language to define each procedure.
-•	Pseudo-code: The pseudo-code is a written form representation of the algorithm but it differs from the step-form as it uses a restricted vocabulary to define its action of solving the problem.
-•	Flowchart & Nassi-Schneiderman: These two are graphically oriented representation forms. They use symbols and language to represent sequence, decision and repetition actions.
+
+1. **Step-form:** The procedure of solving a problem is stated with written statements. Each statement solves a part of the problem and these together complete the solution. The step-form uses normal language to define each procedure.
+
+2. **Pseudo-code:** The pseudo-code is a written form representation of the algorithm but it differs from the step-form as it uses a restricted vocabulary to define its action of solving the problem.
+
+3. **Flowchart & Nassi-Schneiderman:** These two are graphically oriented representation forms. They use symbols and language to represent sequence, decision and repetition actions.
 Algorithms show these three features:
-1.	Sequence (also known as process): Sequence means that each step or process in the algorithm is executed in the specific order.
-2.	Decision (also known as selection): (if…. then, if…. then…. else…) In algorithms the outcome of a decision is either true or false; there is no state in between. 
-If proposition 
-          then process1 
-else process2
-This is the if… then… else… form of the decision. This means that if the preposition is true then execute process1, else, or otherwise,     execute process2.
-3.	Repetition (also known as iteration or looping): repeat and while. repeat loop, while loop, if… then go to ... loop. The repeat loop is used to iterate or repeat a process or sequence of processes until some condition becomes true. It has the general form:
-      Syntax:					Example:
-Repeat					Repeat
-         Process1				Fill water in kettle
-         Process2				until kettle is full
-         ……….……				
-         ProcessN				
-         Until proposition				
 
-While preposition				while kettle is not full
-Begin					fill water in kettle
-Process1
-Process2
-……………
-ProcessN
-end
+1. **Sequence (also known as process):** Sequence means that each step or process in the algorithm is executed in the specific order.
 
-If … then goto … is:
-         Process1				Fill some water in kettle
-         Process2				if kettle not full then goto 1
-         ……………
-         ProcessN
-         If proposition then goto Process1
+2. **Decision (also known as selection):** (if…. then, if…. then…. else…) In algorithms the outcome of a decision is either true or false; there is no state in between. 
 
-Constant and Variable: Constant is a fixed value that can’t be changed. On the other hand, the variable is a container for a value that may vary during the execution of the program. For example, in the tea-making algorithm, the cup and kettle are constant whether the water level, water temperature and quantity of tea leaves are variable.
+    If proposition 
+      then process1 
+    else process2
+
+This is the if… then… else… form of the decision. This means that if the preposition is true then execute process1, else, or otherwise, execute process2.
+
+3.	**Repetition (also known as iteration or looping):** repeat and while. repeat loop, while loop, if… then go to ... loop. The repeat loop is used to iterate or repeat a process or sequence of processes until some condition becomes true. It has the general form:
+*Syntax:*
+
+    Process1				Fill water in kettle
+    Process2				until kettle is full			
+    ProcessN				
+    Until proposition		
+    While preposition				while kettle is not full
+
+    Begin
+    fill water in kettle
+    Process1
+    Process2
+    ……………
+    ProcessN
+    end
+
+    If … then goto … is:
+    Process1				Fill some water in kettle
+    Process2				if kettle not full then goto 1
+    ……………
+    ProcessN
+    If proposition then goto Process1
+
+**Constant and Variable:** Constant is a fixed value that can’t be changed. On the other hand, the variable is a container for a value that may vary during the execution of the program. For example, in the tea-making algorithm, the cup and kettle are constant whether the water level, water temperature and quantity of tea leaves are variable.
+
 Developing algorithms using step-form:
+
 1.	START and STOP
 2.	INPUT or READ
 3.	PRINT
 4.	Operators-
-a.	Arithmetic Operators: ←; The expression X←6 means that a value 6 is assigned to the variable X. Examples: +, -, *, /, %
-b.	Relational Operators
+  a.	Arithmetic Operators: ←; The expression X←6 means that a value 6 is assigned to the variable X. Examples: +, -, *, /, %
+  b.	Relational Operators
 
 # Chapter-10
 ## Algorithms and Flowcharts
+
+### Algorithms
+In mathematics and computer science, an algorithm is a finite sequence of rigorous instructions, typically used to solve a class of specific problems or to perform a computation. Algorithms are used as specifications for performing calculations and data processing1.
+### Flowcharts
+
+* A flowchart is a graph used to depict or show a step by step solution using symbols which represent tasks.
+* The symbols used consist of geometrical shapes that are connected by flow lines.
+* It is an alternative to using pseudocode; while a pseudocode description is verbal, a flowchart is graphical in nature.
+
+**Symbols**
+<img src="https://www.researchgate.net/profile/Kenneth-Dekera/publication/338671462/figure/fig1/AS:848676255694848@1579351595020/Standard-Flowchart-Symbols.ppm">
 # Chapter-11
 ## Pseudocodes
 * A pseudocode is a semiformal, (typically English) spoken-like language with limited vocabulary that can be used to design and describe algorithms.
@@ -428,7 +450,7 @@ b.	Relational Operators
     loop-body
   end_while
 
-<b><i>Example 5: Summing up 1 to 10</i></b>
+<b><i>Example 4: Summing up 1 to 10</i></b>
 
     set cumulative sum to 0
     set current number to 1
@@ -439,146 +461,52 @@ b.	Relational Operators
     print the value of cumulative sum
 
 Pseudocode: The Repetition control structure 
-• Subsequently, we can write the previous pseudocode 
-(example 5) like this.
-• Example 6: Summing up 10 numbers
-cumulative sum = 0
-current number = 1
-while current number is less than or equal to 10
-cumulative sum = cumulative sum + current number
-current number = current number + 1
-end_while
-print the value of cumulative sum
-• Note that in this algorithm, we are using both the 
-sequence and repetition control structure
-17
+
+* Subsequently, we can write the previous pseudocode (example 5) like this.
+
+<b><i>Example 5: Summing up 10 numbers</i></b>
+
+    cumulative sum = 0
+    current number = 1
+    while current number is less than or equal to 10
+      cumulative sum = cumulative sum + current number
+      current number = current number + 1
+    end_while
+    print the value of cumulative sum
+
+    *Note that in this algorithm, we are using both the sequence and repetition control structure*
+
 Pseudocode: The Repetition control structure
-• Example 7:
-Begin
-number of users giving their birth date = 0
-while number of users giving their birth date < 10
-begin
- Read birth date from the user.
- Calculate the difference between the birth 
-date and today’s date.
- Print the user’s age.
- if the age is greater than 55
-print “Pencen”
- else
-print “Kerja lagi”
- end_if
- number of users giving their birth date + 1
-end
-end_while
-End
-18
-Pseudocode: The Repetition control structure 
-• Example 8:
-while user still wants to play
-begin
-Select either to play on a network or play against computer
- if play on network
-create connection to remote machine
-play game with connected computer
- else
- select mission
- play game locally
- end_if
-Ask user whether he/she still wants to play
-end
-end_while
-19
-Pseudocode: The Repetition control structure
-• Example 9:
-while user still wants to play
-begin
-Select either to play on network or play against computer
-if play on network
-create connection to remote machine
-play game with connected computer
-Else
-select mission
-play game locally
-end_if
-Ask user whether he/she still wants to play
-end
-end_while
-• For readability, always use proper indentation!!!
-20
-Flowcharts
-• A flowchart is a graph used to depict or show 
-a step by step solution using symbols which 
-represent tasks.
-• The symbols used consist of geometrical 
-shapes that are connected by flow lines.
-• It is an alternative to using pseudocode; while 
-a pseudocode description is verbal, a 
-flowchart is graphical in nature.
-21
-Flowchart Symbols
-Terminal symbol - indicates the beginning and 
-end points of an algorithm.
-Process symbol - shows an instruction other than
-input, output or selection.
-Input-output symbol - shows an input or an output 
-operation.
-Disk storage I/O symbol - indicates input from 
-or output to disk storage.
-Printer output symbol - shows hardcopy printer
-output.
-22
-Flowchart Symbols cont…
-Selection symbol - shows a selection process
-for two-way selection.
-Off-page connector - provides continuation 
-of a logical path on another page.
-On-page connector - provides continuation
-of logical path at another point in the same
-page.
-Flow lines - indicate the logical sequence of
-execution steps in the algorithm.
-23
-Flowchart – sequence control structure
-Statement 2
- Statement 1
- Statement 3
-:
-24
-Flowchart – selection control structure
-Condition
-elsestatement(s)
-thenstatement(s)
-No Yes
-25
-Flowchart – repetition control structure
-Condition Loop 
-Statement(s)
-yes
-no
-26
-Flowchart – example 1
-Begin
-Read birth date
-Calculate
-Age = current year – birth date
-Display age
-End
-27
-Flowchart – example 2
-Begin
-Read age
-End
-YES Age > 55? NO
-print “Pencen” print “Kerja lagi”
-28
-Flowchart – example 5
-Begin
-End
-current_number <= 10?
-NO
-YES
-sum = 0
-current_number = 1
-sum = sum + current_number
-current_number = current_number + 1
-print sum
+
+<b><i>Example 6:</i></b>
+
+      begin
+      Read birth date from the user.
+      Calculate the difference between the birth 
+      date and today’s date.
+      Print the user’s age.
+      if the age is greater than 55
+      print “Pencen”
+      else
+      print “Kerja lagi”
+      end_if
+      number of users giving their birth date + 1
+      end
+      end_while
+      End
+
+<b><i>Example 7: while user still wants to play</i></b> 
+
+    begin
+    Select either to play on a network or play against computer
+    if play on network
+    create connection to remote machine
+    play game with connected computer
+    else
+    select mission
+    play game locally
+    end_if
+    Ask user whether he/she still wants to play
+    end
+    end_while
+
