@@ -5,7 +5,7 @@ int main()
 {
     int year;
     printf("Enrter a year: ");
-     scanf("%d", &year);
+    scanf("%d", &year);
 
      if(year % 4 == 0)
      {
